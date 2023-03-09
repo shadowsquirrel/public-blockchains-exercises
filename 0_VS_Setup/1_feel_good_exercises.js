@@ -58,7 +58,7 @@ c = 3;
 
 // b. Hint: This function needs a name after the word function.
 function sayHello() {
-  console.log("Hello!");
+	console.log("Hello!");
 }
 
 // EXERCISE 2. Producticity: Shorcuts and More.
@@ -119,9 +119,17 @@ console.log("2. I would like to go below.");
 let a = 1234;
 a++;
 if (a > 123) {
-  a--;
+	a--;
 } else a++;
 console.log(a);
+
+var can = 213123;
+
+if (can > 0) {
+can++;
+} else {
+can--;
+}
 
 // Nothing happened?
 // If so, your code (technically my code, if you just cloned it)
@@ -147,7 +155,7 @@ console.log(a);
 // bracket get highlighted?
 
 if (b + c > 1) {
-  console.log("Hei!");
+	console.log("Hei!");
 }
 
 // b. That was easy. In more complicated cases, you might want to use a
@@ -197,7 +205,7 @@ console.log(outcome);
 
 console.log("I want to say it 10 times:");
 for (let i = 0; i < 10; i++) {
-  console.log(i + 1 + ": " + outcome);
+	console.log(i + 1 + ": " + outcome);
 }
 console.log("Mike drop.");
 
