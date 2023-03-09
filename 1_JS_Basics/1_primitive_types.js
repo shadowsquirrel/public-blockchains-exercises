@@ -26,9 +26,8 @@
 // an error for another one.
 
 // Important! I am assuming you are using the Hydrogen package to
-// run these exercise. If so, you may avoid declarig variables with let.
 // This has the advantage that you can re-run the same command without
-// throwing errorr such as  "variable already defined",
+// throwing error such as  "variable already defined",
 // This has also the disadvantage that the linter will complain about
 // the variable not being defined. Let it complain, he is a grumpy old linter.
 
@@ -36,10 +35,12 @@
 // - to execute the line where the cursor is, press Ctrl-Enter.
 // - to execute multiple lines at once, highlight them, and press Ctrl-Enter.
 
-// Numbers.
 
+
+
+// Numbers.
 // integer.
-morph = 1;
+var morph = 1;
 console.log(typeof morph);
 // It is good practice to always add the semicolon at the of a statement.
 
