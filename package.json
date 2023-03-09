@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/shadowsquirrel/public-blockchains-exercises/issues"
   },
-  "homepage": "https://github.com/shadowsquirrel/public-blockchains-exercises#readme"
+  "homepage": "https://github.com/shadowsquirrel/public-blockchains-exercises#readme",
+  "devDependencies": {
+    "eslint": "^8.35.0"
+  }
 }
