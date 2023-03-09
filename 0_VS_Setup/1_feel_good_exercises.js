@@ -61,8 +61,6 @@ function sayHello() {
 	console.log("Hello!");
 }
 
-sayHello();
-
 // EXERCISE 2. Producticity: Shorcuts and More.
 ///////////////////////////////////////////////
 
@@ -88,11 +86,9 @@ sayHello();
 // a new cursor, so you can write multiple rows at once. Delete the word "not"
 // and replace the explanation mark with a sad face.
 
-var catchMeIfYouCan1 = "You did catch me!";
-var catchMeIfYouCan2 = "You did catch me!";
-var catchMeIfYouCan3 = "You did catch me!";
-
-console.log(catchMeIfYouCan1, catchMeIfYouCan2, catchMeIfYouCan3);
+catchMeIfYouCan1 = "You did catch me!";
+catchMeIfYouCan2 = "You did catch me!";
+catchMeIfYouCan3 = "You did catch me!";
 
 // d. Sometimes you want to move an entire line of code up or down. Of course
 // there is a shortcut for that: Alt-ArrowUp/Down.
@@ -120,7 +116,7 @@ console.log("2. I would like to go below.");
 // Or check the keybindings link in the previous exercise to format only a
 // portion of the code.
 
-a = 1234;
+let a = 1234;
 a++;
 if (a > 123) {
 	a--;
@@ -130,9 +126,9 @@ console.log(a);
 var can = 213123;
 
 if (can > 0) {
-	can++;
+can++;
 } else {
-	can--;
+can--;
 }
 
 // Nothing happened?
